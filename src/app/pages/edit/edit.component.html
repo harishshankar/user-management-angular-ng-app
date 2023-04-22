@@ -13,7 +13,7 @@
                     <h4 class="card-title text-center mb-4">
                         Edit User
                     </h4>
-                    <form action="/view/" (submit)="update()"  #f="ngForm">
+                    <form action="/view-all/" (submit)="update()"  #f="ngForm">
                         <div class="form-floating mb-3">
                             <input type="text" name="name" class="form-control" id="floatingInput" placeholder="username" [(ngModel)]="user.username" required #name="ngModel">
                             <label for="floatingInput">Username</label>
