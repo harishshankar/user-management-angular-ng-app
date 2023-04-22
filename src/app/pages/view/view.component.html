@@ -1,0 +1,57 @@
+<div class="container py-3">
+    <div class="row">
+        <div class="col">
+            <h1>View User</h1>
+        </div>
+    </div>
+</div>
+
+<div class="container py-4 mb-3">
+    <div class="row">
+        <div class="col-auto">
+            <a routerLink="/create/" class="btn btn-outline-success">Add</a>
+        </div>
+        <div class="col-auto">
+            <a routerLink="/edit/" class="btn btn-outline-success">Edit</a>
+        </div>
+        <div class="col-auto">
+            <button class="btn btn-outline-danger">Delete</button>
+        </div>
+    </div>
+</div>
+
+
+<section class="container">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-5  card">
+            <div class=" px-3">
+                <div class="card-body">
+                    <p>User Detail</p>
+                    <div class="table-responsive">
+                        <table class="table align-middle mt-3">
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Id</th>
+                                    <td>{{user.id}}</td>
+                                  </tr>
+                              <tr>
+                                <th scope="row">Name</th>
+                                <td>{{user.username}}</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Mobile</th>
+                                <td>{{user.mobile}}</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Email</th>
+                                <td>{{user.email}}</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

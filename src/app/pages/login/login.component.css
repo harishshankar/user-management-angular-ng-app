@@ -1,0 +1,11 @@
+body {
+    background-image: url("../../../assets/image/8.png");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-color: cornflowerblue;
+}
+
+.middle {
+    height: 100vh;
+}
